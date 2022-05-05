@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles2.css" />
+    <script type="text/javascript" src="./tabla2.js"></script>
     <title>Ejercicio Tabla</title>
 </head>
 <body>
@@ -16,13 +17,14 @@
                 <li>Para crear una tabla, pulsar el botón "Crear tabla".</li> 
                 <li>Para añadir una fila, pulsar el botón "Añadir fila".</li> 
                 <li>Para borrar una fila, pulsar el botón "Borrar fila".</li> 
-         </ul>
+            </ul>
         </article>
         
-        <input type="button" id="create" value="Crear tabla" />
-        <input type="button" id="add" value="Añadir fila" />
-        <input type="button" id="delete" value="Borrar fila" />
+        <!-- así NO, input es para formularios <input type="button" id="create" value="Crear tabla" /> -->
+        <button id="create">Crear tabla</button>
+        <button id="add">Añadir fila</button>
+        <button id="delete">Borrar tabla</button>
     </section>
-    <script type="text/javascript" src="./tabla2.js"></script>
+
   </body>
 </html>
