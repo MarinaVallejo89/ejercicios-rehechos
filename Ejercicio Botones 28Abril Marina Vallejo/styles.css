@@ -1,0 +1,18 @@
+* {
+    border-radius: 0.50em;
+    border: 0.3em;
+    border-color: pink;
+    border-style: double;
+    background-color: beige;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+font-size: large;
+}
+
+#anadir, #reemplazar, #eliminar, #colorear, #reemplazados {
+    font-weight:bolder;
+}
